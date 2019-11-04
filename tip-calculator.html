@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IntelliJ</title>
+    <link rel="stylesheet" href="css/tip-calculator.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <!-- This is where we input the total bill BEFORE tipping-->
+            <label for="bill-amount">Bill Amount: </label>
+            <input type="text" id="bill-amount">
+            <!--These are quick action buttons for most commonly used percentages-->
+            <!-- Get these buttons to work!-->
+            <button id="ten-percent">10%</button>
+            <button id="fifteen-percent">15%</button>
+            <button id="twenty-percent">20%</button>
+            <!--This is for entering a custom percentage-->
+            <label for="custom-percent">Enter a percentage:</label>
+            <input type="number" id="custom-percent">
+
+
+            <button type="submit" id="calculate">Calculate</button>
+
+            <div id="output">
+                <!--Append the result to html-->
+            </div>
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+        crossorigin="anonymous"></script>
+<script src="js/tip-calculator.js"></script>
+</body>
+</html>
